@@ -1,1 +1,12 @@
 /* ADD YOUR STYLES HERE */
+.ArbitraryCenterPadding{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.ArbitraryCenterPadding img{
+	padding-left: 20px;
+	float: left;
+}
+.ArbitraryCenterPadding p, li{
+	display: inline-block;
+}
