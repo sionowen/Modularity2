@@ -4,9 +4,108 @@
 	padding-right: 10%;
 }
 .ArbitraryCenterPadding img{
-	padding-left: 20px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.ArbitraryCenterPadding p, .ArbitraryCenterPadding ol{
+	display: inline-block;
+	padding: 20px;
+	padding-top: 0px;
+	margin: 0px;
 	float: left;
 }
-.ArbitraryCenterPadding p, li{
+.VerticalAlign img{
+	position: relative;
+	left: 0px;
+	padding-left: 5px;
+	padding-top: 40px;
+	vertical-align: middle;
+}
+.horizontallist li{
+	display: inline;
 	display: inline-block;
+}
+.buttonstyle, a.buttonstyle, input{
+	text-decoration: none;
+	background-color: pink;
+	border-radius: 7px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	border: 0px;
+}
+.buttonlarge{
+	height: 60px;
+	width: 150px;
+	line-height: 60px;
+}
+.buttonmedium{
+	height: 40px;
+	width: 120px;
+	line-height: 40px;
+}
+.buttonsmall{
+
+	height: 25px;
+	width: 80px;
+	line-height: 25px;
+}
+.navigation li, nav.navigation{
+	display: inline-table;
+	padding-left: 20px;
+	padding-right: 30px;
+	background-color: pink;
+	position: relative;
+	height: 35px;
+	border-radius: 7px;
+}
+.navigation a, .pagination{
+	text-decoration: none;
+	color: white;
+	line-height: 35px;
+}
+a.buttonstyle:hover, input.buttonmedium:hover, .navigation a:hover, .pagination a:hover{
+	font-weight: 700;
+	font-size: 25px;
+}
+.pagination a, .pagination li{
+	position: relative;
+	display: inline-block;
+	color: pink;
+	padding: 5px; 
+}
+.mediabox{
+	clear: left;
+}
+.mediacontainer{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.mediacontent{
+	overflow: hidden;
+}
+.tab li{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 7px 7px 0 0;
+	border: solid 1px #aad;
+	margin-right: 5px;
+	position: relative;
+	top: 1px;
+	text-decoration: none;
+}
+
+.tabcontent{
+	border-radius: 7px 7px 0 0;
+	border: solid 1px #aad;
+}
+.tab-active li{
+border-bottom-color: none;
+
 }
